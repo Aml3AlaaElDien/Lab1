@@ -14,11 +14,3 @@ def computeGrades(scores):
     grades = [scoreToGrade(score) for score in scores]
     return grades
 
-# Example usage:
-student_scores = [85, 92, 78, 60, 72]  # Replace this with the list of students' scores
-
-#student_scores = int (input('Please enter the score: '))
-student_grades = computeGrades(student_scores)
-# Displaying the results
-for i in range(len(student_scores)):
-    print(f"Student {i+1}: Score = {student_scores[i]}, Grade = {student_grades[i]}")
